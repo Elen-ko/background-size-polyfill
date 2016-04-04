@@ -32,6 +32,7 @@ Everywhere you use `background-size` in your CSS, add a reference to this file.
 	-ms-behavior: url(/backgroundsize.min.htc);
 }
 ```
+
 The elements styled this way should have a `position: relative;` or `position: fixed;` and a z-index. 
 If not, they will be given a `position: relative;` and `z-index: 0;`.
 
